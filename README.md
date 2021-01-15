@@ -56,10 +56,12 @@ List of SDK versions
 
 7. Open Command Prompt (Win+R, «cmd», Enter) and type the following:
 
+```
 adb connect localhost:21503
 adb shell
 cd sdcard/Download/xposed
 sh flash-script.sh
+```
 
 8. Reboot Emulator
 
